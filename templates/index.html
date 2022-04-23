@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+  <title>CS 4400</title>
+</head>
+<body>
+  <div class="container">
+    <div class="window">
+      <div class="window-title">
+        <h2>Admin Menu</h2>
+      </div>
+      <div class="window-btn">
+        <button type="button" onclick="window.location.href='view_stats'">View Stats</button>
+        <div class="grid-container">
+          <button type="button" onclick="window.location.href='create_corporation'">Create Corporation</button>
+          <button>Create Fee</button>
+          <button type="button" onclick="window.location.href='manage_users'">Manage Users</button>
+          <button>Manage Overdraft</button>
+          <button>Hire Worker</button>
+          <button>Pay Employees</button>
+          <button>Replace Manager</button>
+          <button>Manage Accounts</button>
+        </div>
+        <button>Create Bank</button>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
